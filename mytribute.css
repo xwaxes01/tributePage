@@ -1,0 +1,55 @@
+div {
+	align-self: center;
+	align-content: center;
+}
+
+#container {
+	display: grid;
+	width: auto;
+	height: auto;
+	margin: 0.25%;
+	border-radius: 20px;
+	background-color: #111111;
+	justify-content: center;
+	text-overflow: wrap;
+}
+
+#title {
+	color: white;
+
+}
+
+h1 {
+	font-size: 300%;
+	font-family: monospace;
+}
+p {
+	font-size: 150%;
+	align-items: left;
+	line-height: 30px;
+}
+
+
+
+img {
+	max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    padding-bottom: 15px;
+
+}
+br {
+	display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 20px;/*Sets height*/
+}
+#tribute-info {
+	padding: 20px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: cyan;
+}
